@@ -1,0 +1,301 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.main{
+    width:100vw;
+    height:500vh;
+    background-color: aqua;
+  
+}
+.navbar{
+    width:50vw;
+    height:50vh;
+    margin:auto;
+}
+.icon{
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+    padding-left: 25px;
+    float: left;
+    padding-top: 10px;;
+}
+.logo{
+    width:2vw;
+    height:2vh;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+    float:left; 
+}
+.menu{
+    width:50vw;
+    height:50vh;
+    float:left;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style:none;
+    margin-left: 65px;
+    margin-top: 45px;
+    font-size: 23px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+ul li a:hover{
+    color:deeppink;
+
+}
+
+.search{
+    width:50px;
+    height:50px;
+    float:left;
+    margin-top: 50px;
+}
+.content{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    color:darkblue;
+    position:absolute;
+    top:210px;
+   left:60px;
+   font-size: 32px; 
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+.par{
+    font-size: 19px;
+}
+.content .btn{
+    width:5vw;
+    height:5vh;
+    background-color: white;
+    border:none;
+    margin-bottom: 10px;
+    margin-left:20px;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+.content .btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:deeppink;
+}
+.content h1{
+    color:darkblue;
+}
+.content span{
+    color:white;
+}
+.form{
+    width:20vw;
+    height:32vh;
+    float:right;
+    position: absolute;
+    top:200px;
+    left:900px;
+    border:1px solid black;
+    margin:10px 10px;
+    padding:10px 10px;
+    background-color:skyblue;
+    text-align: center;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.cn{
+    width:5vw;
+    height:3vh;
+}
+.course{
+    float:left;
+    margin-top: 370px;
+    margin-left: 90px;
+    color:darkblue;
+}
+.course:hover{
+    color:red;
+
+}
+.container{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top:850px;
+    margin-left:35px; 
+    
+}
+.web{
+    text-align: center;
+    color:black;
+}
+.card{
+    background-color: white;
+    width:100vw;
+    height:80vh;
+    margin:8px;
+    border:2px solid black;
+}
+.card-image{
+    background-color: aqua;
+    background-size: cover;
+    margin-bottom: 8px;
+    height:42vh;
+    width:32vw;
+}
+.car-1{
+    background-image: url("images/web1.jpg");
+    
+}
+.car-2{
+    background-image: url("images/data1.jpg");
+}
+.car-3{
+    background-image: url("images/aws1.jpg");
+}
+.button{
+   margin-top: 70px;
+   margin-left: 150px;
+   width:8vw;
+   height: 5vh;
+   background-color:lightgray;
+   font-size: 15px;
+}
+.trainers{
+    float:left;
+    margin-top: 210px;
+    margin-left: 50px;
+    color:darkblue;
+}
+.trainers:hover{
+    color:red;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 330px;
+    margin-left: 30px;
+}
+
+.item{
+    background-color:orange;
+    width:24vw;
+    height:50vh;
+    margin:4px;
+    border:3px solid black;
+    border-radius: 8px;
+}
+.item-image1{
+    width:24vw;
+    height:40vh;
+    background-size: cover;
+    background-color:blue;
+transition: width 30s, height 30s;
+
+}
+
+
+.item-1{
+    background-image: url("images/item1.jpg");
+
+}
+.item-2{
+    background-image: url("images/item2.jpg");
+
+}
+.item-3{
+    background-image: url("images/item3.jpg");
+
+}
+.item-4{
+    background-image: url("images/item4.jpg");
+}
+.name{
+    text-align: center;
+}
+.diaries{
+    margin-top: 150px;
+    margin-left: 50px;
+    color:darkblue;
+    text-align: center;
+}
+.diaries:hover{
+    color:red;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.bar{
+    background-color: white;
+    width:24vw;
+    height:65vh;
+    margin:12px;
+    box-shadow: 12px 10px lightpink;
+    transition: all 1s ease-in-out;
+}
+
+.bar-image{
+    width:24vw;
+    height:35vh;
+    background-size: cover;
+    background-color: white;
+}
+.bar-1{
+    background-image: url("images/place1.jpg");
+}
+.bar-2{
+    background-image: url("images/place2.jpg");
+}
+.bar-3{
+    background-image: url("images/place3.jpg");
+}
+.place{
+    text-align: center;
+    
+}
+.address{
+    background-color: black;
+    width:100vw;
+    height:90vh;
+    margin-top: 200px;
+    color:white;
+}
+.tutorial {
+    
+    margin-left:30px ;
+}
+.Tech{
+    margin-left:30px ;
+
+}
+ div .item-image1:hover{
+    width:200px;
+    height:200px;
+}
+
+
+
+
+
+
+
